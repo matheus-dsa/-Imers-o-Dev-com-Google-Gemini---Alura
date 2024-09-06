@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Hospitais e Clínicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca de Hospitais e Clínicsas</h1>
+        <form id="location-form">
+            <label for="location">Digite sua localização:</label>
+            <input type="text" id="location" placeholder="Endereço ou coordenadas" required>
+            <ul id="suggestions" class="suggestions-list"></ul>
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
